@@ -4,4 +4,4 @@
 ./tools/deployment/developer/fluent-logging.sh
 ./tools/deployment/developer/kibana.sh
 
-kubectl get -n osh-infra --show-all
+kubectl get jobs -n osh-infra --show-all
